@@ -100,15 +100,15 @@
   "productTypes": [
     {
       "id": 1,
-      "category": "chocolate"
+      "category": "Chocolate"
     },
     {
       "id": 2,
-      "category": "gummy"
+      "category": "Gummy"
     },
     {
       "id": 3,
-      "category": "hard candy"
+      "category": "Hard candy"
     }
   ],
   "productLocations": [
