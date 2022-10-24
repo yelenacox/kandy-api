@@ -32,51 +32,26 @@
     },
     {
       "id": 6,
-      "name": "James",
-      "email": "james@james.com",
-      "isStaff": true
-    },
-    {
-      "id": 7,
-      "name": "Boo",
-      "email": "boo@boo.com",
-      "isStaff": true
-    },
-    {
-      "id": 8,
-      "name": "lhal",
-      "email": "jlej@gjn.com",
-      "isStaff": true
-    },
-    {
-      "id": 9,
-      "name": "lakdjfkj",
-      "email": "slkfjsdl",
-      "isStaff": true
+      "name": "Taco",
+      "email": "taco@taco.com",
+      "isStaff": false
     }
   ],
   "customers": [
     {
       "id": 1,
       "loyaltyNumber": 12348,
-      "userId": 1,
-      "user": {
-        "id": 1,
-        "name": "Bob",
-        "email": "bob@bob.com",
-        "isStaff": false
-      }
+      "userId": 1
     },
     {
       "id": 2,
       "loyaltyNumber": 22346,
-      "userId": 2,
-      "user": {
-        "id": 2,
-        "name": "Jane",
-        "email": "jane@jane.com",
-        "isStaff": true
-      }
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "loyaltyNumber": 22347,
+      "userId": 3
     }
   ],
   "employees": [
@@ -223,27 +198,9 @@
   "purchases": [
     {
       "customerId": 1,
-      "productId": 5,
-      "numberPurchased": 1,
-      "id": 1
-    },
-    {
-      "customerId": 1,
       "productId": 2,
       "numberPurchased": 1,
-      "id": 2
-    },
-    {
-      "customerId": 1,
-      "productId": 6,
-      "numberPurchased": 1,
-      "id": 3
-    },
-    {
-      "customerId": 1,
-      "productId": 4,
-      "numberPurchased": 3,
-      "id": 4
+      "id": 1
     }
   ]
 }
