@@ -58,13 +58,25 @@
   "customers": [
     {
       "id": 1,
-      "loyaltyNumber": 12345,
-      "userId": 1
+      "loyaltyNumber": 12348,
+      "userId": 1,
+      "user": {
+        "id": 1,
+        "name": "Bob",
+        "email": "bob@bob.com",
+        "isStaff": false
+      }
     },
     {
       "id": 2,
-      "loyaltyNumber": 22345,
-      "userId": 2
+      "loyaltyNumber": 22346,
+      "userId": 2,
+      "user": {
+        "id": 2,
+        "name": "Jane",
+        "email": "jane@jane.com",
+        "isStaff": true
+      }
     }
   ],
   "employees": [
@@ -210,16 +222,28 @@
   ],
   "purchases": [
     {
-      "id": 1,
       "customerId": 1,
-      "productId": 1,
-      "numberPurchased": 2
+      "productId": 5,
+      "numberPurchased": 1,
+      "id": 1
     },
     {
-      "id": 2,
-      "customerId": 2,
+      "customerId": 1,
       "productId": 2,
-      "numberPurchased": 1
+      "numberPurchased": 1,
+      "id": 2
+    },
+    {
+      "customerId": 1,
+      "productId": 6,
+      "numberPurchased": 1,
+      "id": 3
+    },
+    {
+      "customerId": 1,
+      "productId": 4,
+      "numberPurchased": 3,
+      "id": 4
     }
   ]
 }
